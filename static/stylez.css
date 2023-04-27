@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Alegrya Sans', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    /* opacity: .9; */
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.7s;
+}
+
+.nav a{
+    display: block;
+    padding: 10px 30px;
+    font-size: larger;
+    text-decoration: none;
+    color: #ccc;   
+}
+
+.nav h2{
+    display: block;
+    padding: 5px 30px;
+    font-size: larger;
+    color: #ccc;   
+}
+
+.nav:hover {
+    color: rgb(141, 141, 141);
+    transition: 0.4s;
+
+}
+
+.nav .close {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    /* margin-left: 50px; */
+    font-size: 30px;
+
+}
+
+.slide a {
+    color: #000;
+    font-size: 30px;
+
+}
+
+.canvas {
+    display:flex;
+}
+
+.content {
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 20px;
+
+}
+
+.content h1, h3, a{
+    display: block;
+    /* padding: 5px 20px; */
+    text-decoration: none;
+    color: #111;
+}
+
+.content h2{
+    font-size: 30px;
+}
+
+.content a{
+    text-decoration: none;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+
+
+}
+
+.content a:hover{
+    color: #666;
+
+}
+
+.content2 {
+    /* border: 2px solid black; */
+    display: block;
+    margin-left: 20px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.docs {
+    margin-top: 65px;
+    margin-right: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.docs img {
+    max-width: 100%;
+    width: 700px;
+}
+
+.sides a{
+    font-size: larger;
+    /* padding: 3%; */
+}
+
+
+.button:hover {background-color: #0c2a06}
+
+.button:active {
+  background-color: #153016;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+/* SHMALL */
+@media only screen and (max-width: 1080px) {
+    .show{
+        display:block;
+    }
+
+    .sides{
+        display: none;
+    }
+
+    .content2 {
+        margin-right: 50px;
+    }
+
+    .docs label{
+        padding-top: 10%;
+    }
+
+    .docs p{
+        font-size: small;
+    }
+
+    .docs a{
+        font-size: smaller;
+    }
+    .docs h2{
+        font-size: medium;
+    }
+
+    .docs ul {
+        margin-right: 50px;
+    }
+
+    .docs li{
+        font-size: small;
+    }
+
+    .docs img{
+        width: 800px;
+    }
+
+    .slide a {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .nav a{
+        font-size: x-large;
+    }
+
+    .taggers h2{
+        font-size: medium;
+    }
+
+    .taggers h3{
+        font-size: small;
+    }
+   }
+
+   /* BIG */
+   @media only screen and (min-width: 1920px) {
+    .show {
+      display:none;
+    }
+
+    .sides{
+        display: block;
+    }
+  }
