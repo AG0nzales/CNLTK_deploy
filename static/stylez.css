@@ -124,6 +124,16 @@ body {
   transform: translateY(4px);
 }
 
+.developers {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 30%;
+}
+
+.hero:hover {
+    cursor: pointer;
+}
+
 
 
 /* SHMALL */
@@ -182,6 +192,10 @@ body {
 
     .taggers h3{
         font-size: small;
+    }
+
+    .developers{
+        width: 70%;
     }
    }
 
